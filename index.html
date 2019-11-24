@@ -1,59 +1,90 @@
 <!DOCTYPE html>
 <html lang="en-us">
+
 <head>
   <meta charset="UTF-8">
-  <title>Activity 1: Basic HTML Bio</title>
+  <title>Nelson Torres Portfolio</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="script/css/style.css">
 </head>
 
 <body>
-  <h1>
-    Nelson Torres
-  </h1>
-
-  <img src="https://i.ytimg.com/vi/IhfHMG8KOS0/hqdefault.jpg" alt="Picture of Nelson Torres"/>
-
-  <p>
-    Paragraph 1 describing who I am
-  </p>
-
-  <p>
-    Paragraph 2 describing who I am
-  </p>
-
-  <ul>
-    <li>LinkedIn Link</li>
-    <li><a href="https://docs.google.com/document/d/13wHiMO4-pX5YnwWfQQAvjssip8oXofVMjwneqiiTMRA/edit?usp=sharing">Google Doc Résumé Link</a></li>
-    <li>Email</li>
-    <li>Github Link</li>
-  </ul>
-
-  <table border="1">
-    <thead>
-      <tr>
-        <th colspan = "4">Proof I can work a Table</th>
-      </tr>
-      <tr>
-        <th>This</th>
-        <th>Is</th>
-        <th>The</th>
-        <th>Header</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Here</td>
-        <td>Is</td>
-        <td>Some</td>
-        <td>Data</td>
-      </tr>
-      <tr>
-          <td>Here</td>
-          <td>Is</td>
-          <td>Some</td>
-          <td>Data</td>
-        </tr>
-    </tbody>
-  </table>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #048FC5;">
+      <a class="navbar-brand" href="#">Nelson Torres</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link"
+              href="https://docs.google.com/document/d/1Nc0Uj-QYU24Qzari3k5z3HoC55RmZYWzFWORmN3SfyA/edit?usp=sharing"
+              style="color: #000E13;">Resumé</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="color: #000E13;">Full Biography </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/Nelsontorresjr330" style="color: #000E13;">Github</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="color: #000E13;">Certification</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="https://www.linkedin.com/in/nelson-torres-516552189?trk=profile-badge" style="color: #000E13;">LinkedIn</a>
+            </li>
+        </ul>
+      </div>
+    </nav>
+    <div id="main-container">
+      <div class="row" id="main">
+        <div class="col-md-2">
+          <div class="LI-profile-badge" data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical"
+            data-theme="dark" data-vanity="nelson-torres-516552189"><a class="LI-simple-link"
+              href='https://www.linkedin.com/in/nelson-torres-516552189?trk=profile-badge'>Nelson Torres</a></div>
+        </div>
+        <div class="col-md-4 main-bubble">
+          <div class="bio-bubble">
+            <h1 style="text-align: center;">Nelson Torres</h1>
+            <p style = "text-indent: 50px;">
+              I am a dedicated aspiring Data Analyst with a passion for large data sets.
+              At the moment, I'm currently pursueing a double major degree in Computer Engineering and Professional Physics with a
+              minor in French at Middle Tennessee State University. I am also undergoing an intensive 
+              <a href="https://bootcamps.vanderbilt.edu/data/" style="color:white; font-weight: bold;">Data Analystics Bootcamp at Vanderbilt University.</a>
+              I'm experienced in numerous data analyst tools including, but not limited to: JavaScript, HTML, CSS, D3, Python, C++, R, VBA, Advanced Excel,
+              Tableau, PostgreSQL, MongoDB, MySQL, ETL, Pandas, JSON and Matplotlib. I am currently looking for a job in the greater Nashville area as a Data Analyst.
+              My current goal however, is to earn admission into Vanderbilt University so a job with connection to the college is preferred.
+              My Github project repository can be searched on the right. If you have any questions or comments about my site please feel free to contact me at
+              Nelsontorresjr330@gmaill.com .
+            </p>
+          </div>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-3 main-bubble">
+          <div class="search-bubble">
+            <h3 style="margin-bottom: 5%;">GitHub Projects</h3>
+            <form class="form-inline">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit"
+                style="background: #303336;">Search</button>
+            </form>
+            test
+          </div>
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+    </div>
+    <div class="row" id="footer">
+      <div class="col-md-12">
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script type="text/javascript" src="script/js/script.js"></script>
 </body>
 
 </html>
